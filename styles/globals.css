@@ -23,6 +23,16 @@ a {
   justify-content: center;
 }
 
+.price {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+img {
+  width: 100px;
+}
+
+
 .coinDetails {
   width: 80%;
   height: 100%;

@@ -8,8 +8,7 @@ const CoinItem = ({ coin }) => {
             <div className={coinsStyle.card}>
                 <h1 className={coinsStyle.title}> {coin.name}</h1>
                 <img src={coin.icon} />
-                <p className={coinsStyle.description}>{coin.description}</p>
-                <p>Rs {coin.price}</p>
+                <p className="price">${coin.price}</p>
             </div>
         </Link>
     )

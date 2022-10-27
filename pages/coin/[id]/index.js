@@ -20,7 +20,7 @@ const coin = ({ coin }) => {
                 <table>
                     <tbody className="tBody">
                         <tr>
-                            <td>Price</td>
+                            <th>Price</th>
                             <td>{coin.price}</td>
 
                         </tr>
@@ -29,7 +29,7 @@ const coin = ({ coin }) => {
                             <td>{coin.rank}</td>
                         </tr>
                         <tr>
-                            <td>Volume</td>
+                            <th>Volume</th>
                             <td>{coin.volume}</td>
                         </tr>
                     </tbody>

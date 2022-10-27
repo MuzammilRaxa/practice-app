@@ -8,7 +8,7 @@ const CoinsList = ({ coins }) => {
         <div className={coinsStyle.grid}>
             {coins.coins.map((coin) => {
                 return (
-                   <CoinItem coin={coin} />
+                    <CoinItem key={coin.id} coin={coin} />
                 )
             })}
         </div>
